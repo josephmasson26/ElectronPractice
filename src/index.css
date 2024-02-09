@@ -1,0 +1,23 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif;
+  margin: auto;
+  max-width: 38rem;
+  padding: 2rem;
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* adjust the number of columns as needed */
+    grid-template-rows: repeat(3, 1fr); /* adjust the number of rows as needed */
+    gap: 10px; /* adjust the gap as needed */
+  }
+
+  .grid-item {
+    border: 1px solid black;
+    padding: 10px;
+    /* add more styling as needed */
+  }
+  
+}
+
+
